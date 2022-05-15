@@ -17,7 +17,7 @@ const Navigation = () => {
       <div className="nav-list">
         <div className="nav-logo">
           <NavLink className="nav-logoo" to="/">
-            <img src="\images\ise logo.PNG" alt="" require/>
+            <img src="\images\ise logo.PNG" alt=""/>
           </NavLink>
         </div>
         <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
