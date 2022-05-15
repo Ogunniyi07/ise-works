@@ -1,0 +1,410 @@
+.about{
+    width:100%;
+    height:max-content;
+    margin-top:-65px;
+}
+.about-hero{
+    width:100%;
+    height:max-content;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* background-color: red; */
+} 
+.about-part{
+    width:50%;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.about-circle{
+    width:450px;
+    height:450px;
+    background-color: #198cd6;
+    margin-left: -450px;
+    margin-top: -450px;
+    border-radius: 50%; 
+    opacity: 5;
+    filter: blur(250px);
+}
+.about-text{
+    width:100%;
+    height:max-content;
+    padding: 200px 0px 220px 80px;
+    /* background-color: red; */
+}
+.abouthero-text{
+    width:100%;
+    height: max-content;
+    padding:0px 80px 0px 0px;
+}
+.about-text .abouthero-text h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #198cd6;
+}
+.about-image{
+    width:50%;
+    height:100vh;
+    padding:80px 0px 30px 0px;
+    /* background-color: green ; */
+}
+.about-text2{
+    width:100%;
+    height:max-content;
+}
+.about-text2 img{
+    width:700px;
+    height:530px;
+    object-fit: contain;
+} 
+.about-circle2{
+    width:450px;
+    height:450px;
+    background-color: #198cd6;
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 50%; 
+    opacity: 5;
+    filter: blur(250px);
+}
+.about-section{
+    width:100%;
+    height:max-content;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+.about-mobile{
+    width:40%;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    padding:40px 0px;
+    /* background-color: blue; */
+}
+.about-mobile img{
+    width:315px;
+    height:625px;
+}
+.about-mobiletext{
+    width:60%;
+    height:113vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 40px;
+    /* background-color: green; */
+}
+.about-mobiletext h2{
+    text-align: center;
+}
+.about-numbers{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:30px 0px;
+    /* background-color: blue; */
+}
+.about-numbers .about-customers{
+    width:25%;
+    height: 30vh;
+    text-align: center;
+    padding:40px 0px;
+    /* background-color: red; */
+}
+.about-numbers .about-customers h2{
+    font-size: 40px;
+}
+.about-goal{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px 0px;
+    /* background-color: blue; */
+}
+.about-goal h2{
+    font-size: 35px;
+    margin-left:120px;
+}
+.about-goal .card{
+    width:60%;
+    height: max-content;
+    margin:20px 0px 0px 120px;
+    padding:80px;
+    background-color: rgba(203, 210, 222, 0.24);
+}
+.about-goal .card p{
+    font-size: 20px;
+}
+.about-sponsor{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px 0px;
+    /* background-color: blue; */
+}
+.about-sponsor h2{
+    font-size: 35px;
+    margin-left:120px;
+}
+.sponsor-card-row{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding:0px 30px;
+}
+.sponsor-card-row .sponsor-card{
+    width:25%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px;
+    flex-shrink: 0;
+    /* background-color: pink; */
+}
+.sponsor-card img{
+    width:190px;
+    height:180px;
+    object-fit: contain;
+}
+.about-btn{
+    width: 100%;
+    height:max-content;
+    padding:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.about-btn button{
+    width:30%;
+    height:8vh;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-style: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color:#fff;
+    font-size: 24px;
+    cursor: pointer;
+    background: #198cd6;
+    transition: all 0.4s ease;
+}
+.about-btn button:hover{
+    background-color:#022a42;
+}
+
+
+/* Responsiveness of the Site */
+@media only screen and (max-width: 1115px) {
+    .about-text{
+        padding: 140px 0px 0px 50px;
+    }
+    .about-text .abouthero-text h2{
+        font-size: 45px;
+    }
+    .sponsor-card-row .sponsor-card{
+        width:30%;
+    }
+}
+@media only screen and (max-width: 975px) {
+    .sponsor-card-row .sponsor-card{
+        width:40%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .about-hero{
+        flex-direction: column;
+    } 
+    .about-text .abouthero-text h2{
+        font-size: 55px;
+    }
+    .about-part{
+        width:100%;
+        height:max-content;
+        padding: 50px 0px;
+    }
+    .about-circle2{
+        display: none;
+    }
+    .about-text{
+        height:max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0px 50px 0px;
+    }
+    .about-image{
+        width:100%;
+        height:80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text2 img{
+        width:600px;
+        height:500px;
+    } 
+    .abouthero-text{
+        width:90%;
+        height: 37vh;
+        padding:0px 30px;
+        text-align: center;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-mobile{
+        width:100%;
+        height:max-content;
+        display: flex;
+        justify-content: center;
+        padding:90px 0px;
+    }
+    .about-mobile img{
+        width:300px;
+        height:595px;
+    }
+    .about-mobiletext{
+        width:100%;
+        height:30vh;
+        display: block;
+        padding:20px 40px;
+    }
+    .about-goal .card{
+        width:75%;
+    }
+    .about-btn button{
+        width:50%;
+        height:8vh;
+    }
+    .sponsor-card-row .sponsor-card{
+        width:50%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .about-text{
+        padding: 150px 0px 40px 0px;
+    }
+    .abouthero-text{
+        width:100%;
+        height: 40vh;
+        padding:0px 30px 0px 30px;
+    }
+    .about-text .abouthero-text h2{
+        font-size: 40px;
+    }
+    .about-text .abouthero-text p{
+        font-size: 20px;
+    }
+    .about-image{
+        width:100%;
+        height:40vh;
+    }
+    .about-text2 img{
+        width:450px;
+        height:350px;
+    } 
+    .about-mobile img{
+        width:230px;
+        height:455px;
+    }
+    .about-numbers{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        padding:0px;
+
+    }
+    .about-numbers .about-customers{
+        width:100%;
+        padding:40px 0px;
+    }
+    .about-goal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-goal h2{
+        margin-left:0px;
+    }
+    .about-goal .card{
+        width:80%;
+        height: max-content;
+        margin:10px 0px;
+        padding:50px;
+    }
+    .about-sponsor h2{
+        margin-left:0px;
+        text-align: center;
+    }
+    .sponsor-card-row .sponsor-card{
+        width:80%;
+    }
+    .about-btn button{
+        width:80%;
+        height:8vh;
+    }
+}
+    @media only screen and (max-width: 400px){
+    .abouthero-text{
+        width:100%;
+        height: 40vh;
+        padding:0px 30px 0px 30px;
+    }
+    .about-text .abouthero-text h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .about-text .abouthero-text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-image{
+        width:100%;
+        height:40vh;
+        padding-bottom: 150px;
+    }
+    .about-text2 img{
+        width:300px;
+        height:300px;
+    }
+    .about-mobile img{
+        width:200px;
+        height:400px;
+    }
+    .about-mobiletext{
+        padding:0px 20px;
+    }
+    .about-mobiletext h2{
+       font-size: 22px;
+    }
+    .sponsor-card-row .sponsor-card{
+        width:100%;
+    }
+    .about-btn button{
+        width:100%;
+        height:8vh;
+    }
+}
+

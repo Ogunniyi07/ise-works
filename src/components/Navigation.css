@@ -1,0 +1,153 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'Gilroy-Bold' sans-serif;
+}
+.nav{
+  position: relative;
+  width:100%;
+  height:10vh;
+}
+.nav-list{
+  width:100%;
+  height:10vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-list .nav-logo{
+  width:20%;
+  height:10vh;
+  padding:0px 30px;
+  margin-left: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.nav-list .nav-logo .nav-logoo{
+  cursor: auto;
+}
+.nav-list .nav-logo img{
+  width:70%;
+  height:70%;
+  object-fit: contain;
+}
+.nav-list ul{
+  width:70%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  justify-content:right;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-list ul li .nav-link{
+  text-decoration: none;
+  padding:20px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #A4A4A4;
+  transition: all 0.3s ease;
+}
+.nav-list ul li .nav-link:hover{
+  color: #000000;
+}
+.nav-list ul li .nav-link .worker
+{
+  color: #1A8CD8;
+}
+.open,
+.close{ 
+  display: none;
+}
+
+
+
+/* Responsiveness of the Site */
+@media only screen and (max-width: 1115px) {
+  .nav-list ul{
+    width:90%;
+    height:auto;
+    justify-content:right;
+  }
+}
+@media only screen and (max-width: 995px) {
+
+}
+@media only screen and (max-width: 900px) {
+  .nav-list .nav-logo{
+    padding:0px 0px 0px 25px;
+  }
+  .nav-list .nav-logo img{
+    width:70%;
+    height:80%;
+  }
+  .open,
+  .close{ 
+    display: inline;
+  }
+  .nav-list .nav-links-mobile{
+    position: absolute;
+    top: 62px;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display:flex; 
+    list-style:none;
+    z-index: 888;
+    padding-bottom: 340px;
+    background:#fff;
+    opacity: 5;
+    filter: blur(0px);
+    transition: all 0.5s ease;
+  
+  }
+  .nav-list ul li {
+    width:100%;
+    height:8vh;
+    align-items: center;
+    justify-content: center;
+    display:flex; 
+    padding: 10px 0px;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .nav-list .link{
+    display:none;
+  }
+  .close,
+  .open{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size: 20px;
+    display: block;
+    z-index:999;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .nav-list .nav-logo{
+    padding:0px 10px;
+  }
+  .nav-list .nav-logo img{
+    width:90%;
+    height:90%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .nav-list .nav-logo{
+    width:25%;
+    height:10vh;
+  }
+  .nav-list .nav-logo img{
+    width:100%;
+    height:100%;
+  }
+}
