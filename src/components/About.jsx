@@ -15,14 +15,14 @@ const About = () => {
         </div>
         <div className="about-image">
           <div className="about-text2">
-            <img src="\images\abouthero.PNG" alt="" />
+            <img src="\images\abouthero.png" alt="" />
           </div>
             <div className="about-circle2"></div>
         </div>
       </div>
       <div className="about-section">
         <div className="about-mobile">
-          <img src="\images\mobile.PNG" alt="" />
+          <img src="\images\mobile.png" alt="" />
         </div>
         <div className="about-mobiletext">
           <h2>With a One way App where you can be either a worker or an employer or even both!!</h2>
@@ -53,25 +53,25 @@ const About = () => {
         <marquee behavior="scroll" direction="left" scrollamount="5">
         <div className="sponsor-card-row">
           <div className="sponsor-card">
-          <img src="\images\sponsor4.PNG" alt="" />
+          <img src="\images\sponsor4.png" alt="" />
           </div>
           <div className="sponsor-card">
-            <img src="\images\sponsor2.PNG" alt="" />
+            <img src="\images\sponsor2.png" alt="" />
           </div>
           <div className="sponsor-card">
-            <img src="\images\sponsor1.PNG" alt="" />
+            <img src="\images\sponsor1.png" alt="" />
           </div>
           <div className="sponsor-card">
-            <img src="\images\sponsor3.PNG" alt="" />
+            <img src="\images\sponsor3.png" alt="" />
           </div>  
           <div className="sponsor-card">
-            <img src="\images\sponsor5.PNG" alt="" />
+            <img src="\images\sponsor5.png" alt="" />
           </div> 
           <div className="sponsor-card">
-            <img src="\images\sponsor6.PNG" alt="" />
+            <img src="\images\sponsor6.png" alt="" />
           </div> 
           <div className="sponsor-card">
-            <img src="\images\sponsor7.PNG" alt="" />
+            <img src="\images\sponsor7.png" alt="" />
           </div>        
         </div>
         </marquee>

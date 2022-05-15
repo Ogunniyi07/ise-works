@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="foot">
-        <img src="\images\ise logo.PNG" alt="" />
+        <img src="\images\ise logo.png" alt="" />
       </div>
       <div className="foot">
         <ul className= "foot-links-mobile">

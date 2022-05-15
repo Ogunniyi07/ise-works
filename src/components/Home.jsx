@@ -17,10 +17,10 @@ const Home = () => {
             </div>
             <div className="download-btn">
               <div className="apple">
-                <a href="#"><img src="images/download-apple.SVG" alt=""/></a>
+                <a href="#"><img src="images/download-apple.svg" alt=""/></a>
               </div>
               <div className="android">
-                <a href="#"><img src="images/download-google.SVG" alt=""/></a>
+                <a href="#"><img src="images/download-google.svg" alt=""/></a>
               </div>
             </div>
           </div>

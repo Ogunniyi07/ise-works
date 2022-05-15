@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <div className="service-image">
             <div className="service-text2">
-              <img src="\images\servicehero2.WEBP" alt="" />
+              <img src="\images\servicehero2.webp" alt="" />
             </div>
             <div className="service-circle2"></div>
           </div>
@@ -27,31 +27,31 @@ const Services = () => {
           </div>
           <div className="service-enterprise1">
             <div className="service-enterprise-img">
-              <img src="\images\Vector3.PNG" alt="" />
+              <img src="\images\Vector3.png" alt="" />
               <p>Enterprise Services</p>
             </div>
             <div className="service-enterprise-img">
-              <img src="\images\Vector4.PNG" alt="" />
+              <img src="\images\Vector4.png" alt="" />
               <p>Financial Services</p>
             </div>
           </div>
           <div className="service-enterprise1">
             <div className="service-enterprise-img">
-              <img src="\images\Vector1.PNG" alt="" />
+              <img src="\images\Vector1.png" alt="" />
               <p>24/7 Customer Service Support</p>
             </div>
             <div className="service-enterprise-img">
-              <img src="\images\Vector2.PNG" alt="" />
+              <img src="\images\Vector2.png" alt="" />
               <p>Cheap rates</p>
             </div>
           </div>
         </div>
         <div className="service-rect">
           <div className="service-card">
-            <img src="\images\service1.PNG" alt="" />
+            <img src="\images\service1.png" alt="" />
           </div>
           <div className="service-card1">
-            <img src="\images\service2.PNG" alt="" />
+            <img src="\images\service2.png" alt="" />
           </div>
         </div>
         <div className="service-workers">
@@ -59,7 +59,7 @@ const Services = () => {
             <h2>Here are our Workers</h2>
           </div>
           <div className="workers-img">
-            <img src="\images\workers.PNG" alt="" />
+            <img src="\images\workers.png" alt="" />
           </div>
         </div>
       </div>
