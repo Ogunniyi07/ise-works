@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Navigation.css';
 import { NavLink } from 'react-router-dom';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 const Navigation = () => {
@@ -17,7 +17,7 @@ const Navigation = () => {
       <div className="nav-list">
         <div className="nav-logo">
           <NavLink className="nav-logoo" to="/">
-            <img src="\images\ise logo.PNG" alt=""/>
+            <img src="\images\ise logo.png" alt=""/>
           </NavLink>
         </div>
         <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
