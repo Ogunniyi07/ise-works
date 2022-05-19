@@ -11,7 +11,9 @@ const Contact = () => {
         <input type="text" placeholder="Name" required/>
         <input type="email" placeholder="Email" required/>
         <input type="text" placeholder="Tell us your problem" required/>
-        <input type="file" placeholder="Add attachment" />
+        <div className="attachment">
+          &#128206;<input type="file" /> 
+        </div> 
         <div className="contact-btn">
           <button>Send</button>
         </div>

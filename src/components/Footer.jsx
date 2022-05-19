@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="foot">
         <img src="\images\ise logo.png" alt="" />
       </div>
-      <div className="foot">
+      <div className="foot1">
         <ul className= "foot-links-mobile">
           <li>
             <NavLink className="foot-link" to="/">
@@ -37,22 +37,28 @@ const Footer = () => {
             </NavLink>
           </li>
         </ul>
-      </div>
-      <div className="foot">
         <div className="icons">
-          <ul className="foot-links-mobile">
-            <li><a href="#"><FaFacebook /></a></li>
-            <li><a href="#"><FaInstagram/></a></li>
-            <li><a href="#"><FaTwitter/></a></li>
-          </ul>
+          <div className="mobile-icons">
+            <ul className="foot-links-mobile">
+              <li><a href="#"><FaFacebook /></a></li>
+              <li><a href="#"><FaInstagram/></a></li>
+              <li><a href="#"><FaTwitter/></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div className="foot">
-        <ul className="foot-links-mobile">
+      <div className="foot2">
+        <div className="top">
           <li><a href="#">Isework 2022 all rights reserved</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & condition</a></li>
-        </ul>
+        </div>
+        <div className="column">
+          <div className="list1">
+            <li><a href="#">Privacy Policy</a></li>
+          </div>
+          <div className="list2">
+            <li><a href="#">Terms & condition</a></li>
+          </div>
+        </div>
       </div>
     </div>
   );

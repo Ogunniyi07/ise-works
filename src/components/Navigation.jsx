@@ -48,7 +48,7 @@ const Navigation = () => {
           </li>
         </ul>
         <div className='toggle' onClick={() => setMobile(!Mobile)}>
-          {Mobile ? <div className="close"><FaTimes /></div> : <div className="open"><FaBars /></div>} 
+          {Mobile ? <div className="close"><FaTimes /></div> : <div className="open"><FaBars  /></div>} 
         </div>
       </div>
     </div>
