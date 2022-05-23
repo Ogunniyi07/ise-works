@@ -3,7 +3,7 @@
 .home{
     width:100%;
     height:max-content;
-    margin-top:-70px;
+    margin-top:-75px;
 }
 .home-hero{
     width:100%;
@@ -219,6 +219,16 @@
         height:80vh;
         padding-bottom: 90px;
     }
+    /* .home-circle2{
+        width:400px;
+        height:400px;
+        background-color: #198cd6;
+        margin-left: 500px;
+        margin-top: -50px;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(150px);
+    } */
     .scroll-btn{
         margin-top:1080px;
         margin-left:290px;
