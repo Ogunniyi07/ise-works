@@ -21,13 +21,13 @@
 .home-circle{
     width:450px;
     height:450px;
-    background-color: #198cd6;
+    background-color: red;
     margin-left: -450px;
     margin-top: -450px;
     border:2px solid;
     border-radius: 50%; 
     opacity: 5;
-    filter: blur(250px);
+    filter: blur(400px);
 }
 .home-text{
     width:100%;
