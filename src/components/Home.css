@@ -200,7 +200,7 @@
 }
 @media only screen and (max-width: 650px) {
     .home-text{
-        padding: 50px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .hero-text{
         width:100%;

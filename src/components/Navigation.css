@@ -57,6 +57,9 @@
 .nav-list ul li .nav-link:hover{
   color: #000000;
 }
+.nav-list ul li .nav-link.active{
+  color: #000000;
+}
 .nav-list ul li .nav-link .worker
 {
   color: #1A8CD8;

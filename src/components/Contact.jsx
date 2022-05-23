@@ -12,7 +12,7 @@ const Contact = () => {
         <input type="email" placeholder="Email" required/>
         <input type="text" placeholder="Tell us your problem" required/>
         <div className="attachment">
-          <label for="file-input">
+          <label htmlFor="file-input">
             <img src="\images\attachment.png" alt="" /> 
           </label>
           <input id="file-input" type="file" /> 

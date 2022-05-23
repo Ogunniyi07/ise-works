@@ -96,7 +96,7 @@
     height:max-content;
     margin-right: 20px;
     padding:40px 50px;
-    text-align: center;
+    text-align: left;
     /* background-color: blue; */
    
 }
@@ -107,7 +107,6 @@
 .service-section .service-enterprise p{
     font-size: 20px;
     line-height:30px; 
-    text-align: left;
 }
 .service-section .service-enterprise1{
     width:70%;
@@ -134,6 +133,7 @@
 }
 .service-section .service-enterprise1 .service-enterprise-img p{
     font-size: 18px;
+    line-height: 40px;
 }
 
 
