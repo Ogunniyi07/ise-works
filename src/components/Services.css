@@ -149,17 +149,22 @@
         padding:80px 20px 15px 20px;
         text-align: center;
     }
-    .service-section{
+    .service-sec1{
+        width:100%;
+        height:max-content;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction:column ;
         justify-content: center;
+        align-items: center;
     }
     .service-section .service-enterprise,
     .service-section .service-enterprise1{
         width:100%;
         height:max-content;
         margin-right: 0px;
+    }
+    .service-section .service-enterprise p{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 650px) {
@@ -175,6 +180,18 @@
     .service-section .service-enterprise p,
     .service-section .service-enterprise1 p{
         font-size: 18px;
+    }
+    .service-blur1{
+        position: absolute  ;
+        width:150px;
+        height:150px;
+        background-color: #198cd6;
+        margin-left: -550px;
+        margin-top: 400px;
+        border:2px solid;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(120px);
     }
 }
     @media only screen and (max-width: 400px){

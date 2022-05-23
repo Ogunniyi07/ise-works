@@ -86,7 +86,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding:150px 80px;
+    padding:100px 80px 60px 80px;
     /* background-color: blue; */
 }
 .about-goal .goal{
@@ -95,7 +95,7 @@
 }
 .about-goal .goal p{
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
 }
 .about-goal .card{
     width:60%;
@@ -103,16 +103,16 @@
     
 }
 .about-goal .card p{
-    font-size: 24px;
+    font-size: 22px;
 }
-.about-section{
+/* .about-section{ 
     width:100%;
     height:max-content;
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
+     background-color: red;
 }
-/*.about-mobile{
+.about-mobile{
     width:40%;
     height:max-content;
     display: flex;
@@ -293,7 +293,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 120px 20px;
+        padding:80px 50px 20px 50px;
     }
     .about-goal .goal{
         width:100%;
@@ -368,7 +368,6 @@
         align-items: center;
         justify-content: center;
         padding:0px;
-
     }
     .about-numbers .about-customers{
         width:100%;
@@ -378,7 +377,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 120px 0px;
+        padding:50px 20px 10px 20px;
     }
     .about-goal p{
         margin-left:0px;
@@ -389,6 +388,17 @@
     }
     .about-goal .card p{
         font-size: 20px;
+    }
+    .about-blur{
+        width:350px;
+        height:350px;
+        background-color: #198cd6;
+        margin-left: 450px;
+        margin-top: -350px;
+        border:2px solid;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(150px);
     }
     .about-rect .about-card img,
     .about-rect .about-card1 img{
