@@ -1,4 +1,4 @@
-
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
                 
 .home{
     width:100%;
@@ -99,7 +99,7 @@
 }
 .home-text2 img{
     width:650px;
-    height:530px;
+    height:480px;
     object-fit: contain;
     /* background-color: red;   */
 } 

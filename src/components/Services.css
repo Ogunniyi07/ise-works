@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 .service{
     width:100%;
     height:max-content;
@@ -13,7 +14,7 @@
 } 
 .service-part{
     width:100%;
-    height:35vh;
+    height:max-content;
     display: flex;
     flex-direction: column;
     /* background-color: blue; */
@@ -35,8 +36,7 @@
 .servicehero-text{
     width:100%;
     height: max-content;
-    float: left;
-    padding:80px 0px 0px 110px;
+    padding:80px 0px 20px 110px;
     /* background-color: red; */
 }
 .service-text .servicehero-text h2{
@@ -79,6 +79,8 @@
 }
 .service-section .service-enterprise p{
     font-size: 20px;
+    line-height:30px; 
+    text-align: left;
 }
 .service-section .service-enterprise1{
     width:70%;
@@ -102,7 +104,7 @@
     /* background-color: pink; */
 }
 .service-section .service-enterprise1 .service-enterprise-img p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
