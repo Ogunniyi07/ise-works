@@ -20,14 +20,17 @@ const About = () => {
             <div className="about-circle2"></div>
           </div>
         </div>
-        <div className="about-goal">
-          <div className="goal">
-            <p>Our Goal</p>
+        <div className="about-sec">
+          <div className="about-blur"></div>
+          <div className="about-goal">
+            <div className="goal">
+              <p>Our Goal</p>
+            </div>
+            <div className="card">
+              <p>ISE came about as a means to help domestic workers looking to reach a larger audience and also to help people too occupied to do little jobs around. Our expertise grow with each year, and our accumulated experience empowers us to develop well enough to serve our clients.</p>
+            </div>
           </div>
-          <div className="card">
-            <p>ISE came about as a means to help domestic workers looking to reach a larger audience and also to help people too occupied to do little jobs around. Our expertise grow with each year, and our accumulated experience empowers us to develop well enough to serve our clients.</p>
-          </div>
-      </div>
+        </div>
       {/* <div className="about-section">
         <div className="about-mobile">
           <img src="\images\mobile.png" alt="" />
@@ -50,7 +53,9 @@ const About = () => {
           <p>Staffs</p>
         </div>
       </div> */}
-      <div className="about-rect">
+      <div className="about-sec1">
+        <div className="about-blur1"></div>
+        <div className="about-rect">
           <div className="about-card">
             <img src="\images\service1.png" alt="" />
           </div>
@@ -58,6 +63,7 @@ const About = () => {
             <img src="\images\service2.png" alt="" />
           </div>
         </div>
+      </div>
       <div className="about-sponsor">
         <h2>Our Sponsors</h2>
         <marquee behavior="scroll" direction="left" scrollamount="5">
