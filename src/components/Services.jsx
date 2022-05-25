@@ -9,7 +9,8 @@ const Services = () => {
             <div className="service-circle"></div>
             <div className="service-text">
               <div className="servicehero-text">
-                <h2>Keeping Customers <br/>Happy</h2>
+                <span className="text1"><h2>Keeping Customers </h2></span>
+                <span className="text2"><h2>Happy</h2></span> 
               </div>
             </div>
           </div>

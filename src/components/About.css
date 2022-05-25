@@ -35,17 +35,48 @@
     height:max-content;
 }
 .abouthero-text{
-    width:100%;
+    width:70%;
     height: max-content;
-    float: left;
-    padding:120px 0px 30px 110px;
-    /* background-color: red; */
+    padding:30px 0px 20px 120px;
+    /* background-color: #000; */
+    text-align:left;
+    position:absolute;
+    top: 22%;
+    left:65%;
+    transform: translate(-50%, -50%);
 }
-.about-text .abouthero-text h2{
+.about-text .abouthero-text span{
+    display: block;
+}
+.about-text .abouthero-text .text1 h2{
     font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height:60px;
     color: #000;
+    background-color: #fff;
+    letter-spacing: 6px;
+    position:relative;
+    animation: text 3s 1;
+}
+.about-text .abouthero-text .text2 h2{
+    font-size: 30px;
+    color: #198cd6;
+    padding-left:70px;
+    /* background-color: red; */
+}
+@keyframes text {
+    0%{
+        color:#000;
+        margin-bottom: -30px;
+    }
+    30%{
+        letter-spacing:25px;
+        margin-bottom: -30px;
+    }
+    85%{
+        letter-spacing:8px;
+        margin-bottom:-30px;
+    }
 }
 .about-image{
     width:100%;
@@ -99,8 +130,18 @@
 }
 .about-goal .card{
     width:60%;
-    height: max-content;
-    
+    height: max-content;  
+    animation: slide-up 2s;
+}
+@keyframes slide-up{
+    from {
+        opacity : 0.05;
+        line-height:80px;
+    }
+    to{
+        opacity:1;
+        line-height: 25px;
+    }
 }
 .about-goal .card p{
     font-size: 22px;
@@ -285,8 +326,23 @@
 }
 @media only screen and (max-width: 900px) {
     .abouthero-text{
-        padding:120px 20px 20px 20px;
-        text-align: center;
+        width:100%;
+        height: max-content;
+        padding:30px 0px 20px 0px;
+        text-align:center;
+        top: 22%;
+        left:50%;
+    }
+    .about-text .abouthero-text .text1 h2{
+        font-size: 30px;
+        line-height:30px;
+        background-color: transparent;
+        letter-spacing: 1px;
+        animation: block;
+    }
+    .about-text .abouthero-text .text2 h2{
+        padding-left:0px;
+        font-size: 30px;
     }
     .about-goal{
         display: flex;
