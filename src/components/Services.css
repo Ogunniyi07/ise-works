@@ -20,9 +20,9 @@
     /* background-color: blue; */
 }
 .service-circle{
-    width:400px;
+     width:400px;
     height:400px;
-    background-color: #198cd6;
+    /* background-color: #198cd6; */
     margin-left: -250px;
     margin-top: -350px;
     border:2px solid;
@@ -35,14 +35,14 @@
     height:max-content;
 }
 .servicehero-text{
-    width:70%;
+    width:100%;
     height: max-content;
-    padding:30px 0px 20px 20px;
+    padding:30px 0px 20px 0px;
     /* background-color: #000; */
     text-align:left;
     position:absolute;
     top: 22%;
-    left:65%;
+    left:50%;
     transform: translate(-50%, -50%);
 }
 .service-text .servicehero-text span{
@@ -52,6 +52,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height:60px;
+    padding:0px 0px 0px 100px;
     color: #000;
     background-color: #fff;
     letter-spacing: 6px;
@@ -60,9 +61,9 @@
 }
 .service-text .servicehero-text .text2 h2{
     font-size: 30px;
-    color: #198cd6;
+    color: #000;
     /* background-color: red; */
-    padding-left:160px;
+    padding-left:100px;
 }
 @keyframes text {
     0%{
@@ -128,11 +129,15 @@
     width:30%;
     height:max-content;
     margin-right: 20px;
-    padding:40px 50px;
+    padding:40px 0px 40px 90px;
     text-align: left;
     animation: slide-up 2s;
+    animation-delay:2s;
     /* background-color: blue; */
    
+}
+.service-section .service-enterprise p{
+    line-height: 10px;
 }
 @keyframes slide-up{
     from {
@@ -150,7 +155,7 @@
 }
 .service-section .service-enterprise p{
     font-size: 20px;
-    line-height:30px; 
+    line-height:25px; 
 }
 .service-section .service-enterprise1{
     width:70%;
@@ -178,6 +183,7 @@
 .service-section .service-enterprise1 .service-enterprise-img p{
     font-size: 18px;
     line-height: 20px;
+    /* background-color: red; */
 }
 
 
@@ -192,21 +198,26 @@
     .servicehero-text{
         width:100%;
         height: max-content;
-        padding:50px 0px 20px 0px;
-        text-align:center;
+        padding:0px 0px 20px 50px;
+        text-align:left;
         top: 22%;
         left:50%;
+        /* background-color: red; */
     }
     .service-text .servicehero-text .text1 h2{
         font-size: 30px;
         line-height:30px;
-        background-color: transparent;
+        background-color: #fff;
         letter-spacing: 1px;
-        animation: block;
+        color: #000;
+        padding-top:10px;
+        margin-left: -50px;
     }
     .service-text .servicehero-text .text2 h2{
-        padding-left:0px;
+        padding-left:100px;
         font-size: 30px;
+        color: #000;
+        margin-left: -50px;
     }
     .service-sec1{
         width:100%;

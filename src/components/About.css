@@ -20,29 +20,28 @@
     /* background-color: blue; */
 }
 .about-circle{
-    width:400px;
+    /* width:400px;
     height:380px;
-    background-color: #198cd6;
     margin-left: -250px;
     margin-top: -350px;
     border:2px solid;
     border-radius: 50%; 
     opacity: 5;
-    filter: blur(150px);
+    filter: blur(150px); */
 }
 .about-text{
     width:100%;
     height:max-content;
 }
 .abouthero-text{
-    width:70%;
+    width:100%;
     height: max-content;
-    padding:30px 0px 20px 120px;
-    /* background-color: #000; */
+    padding:30px 0px 20px 0px;
+    /* background-color: blue; */
     text-align:left;
     position:absolute;
     top: 22%;
-    left:65%;
+    left:50%;
     transform: translate(-50%, -50%);
 }
 .about-text .abouthero-text span{
@@ -52,6 +51,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height:60px;
+    padding:0px 0px 0px 100px;
     color: #000;
     background-color: #fff;
     letter-spacing: 6px;
@@ -60,8 +60,8 @@
 }
 .about-text .abouthero-text .text2 h2{
     font-size: 30px;
-    color: #198cd6;
-    padding-left:70px;
+    color: #000;
+    padding-left:100px;
     /* background-color: red; */
 }
 @keyframes text {
@@ -132,6 +132,7 @@
     width:60%;
     height: max-content;  
     animation: slide-up 2s;
+    animation-delay:2s;
 }
 @keyframes slide-up{
     from {
@@ -328,21 +329,23 @@
     .abouthero-text{
         width:100%;
         height: max-content;
-        padding:30px 0px 20px 0px;
-        text-align:center;
+        padding:30px 0px 20px 50px;
+        text-align:left;
         top: 22%;
         left:50%;
     }
     .about-text .abouthero-text .text1 h2{
         font-size: 30px;
         line-height:30px;
-        background-color: transparent;
         letter-spacing: 1px;
-        animation: block;
+        padding-top:10px;
+        color:#000;
+        margin-left: -50px;
     }
     .about-text .abouthero-text .text2 h2{
-        padding-left:0px;
+        margin-left: -50px;
         font-size: 30px;
+        color:#000;
     }
     .about-goal{
         display: flex;
