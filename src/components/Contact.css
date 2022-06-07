@@ -31,10 +31,12 @@ input[type=email]{
     height:10vh;
     font-size: 22px;
     margin-bottom: 25px;
-    padding:15px;
     border-style: none;
     color: #A4A4A4;
     border-bottom: 2px solid #A4A4A4;
+  }
+  input:focus{
+      outline: none;
   }
   .attachment{
     width:100%;
