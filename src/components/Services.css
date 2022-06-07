@@ -268,6 +268,10 @@
         .service-section .service-enterprise1{
             padding:40px 20px;
         }
+        .service-text .servicehero-text .text1 h2,
+        .service-text .servicehero-text .text2 h2{
+            padding-left:50px;
+        }
 }
 
 
