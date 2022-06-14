@@ -251,7 +251,7 @@
         padding: 200px 0px 50px 0px;
     }
     .home-text{
-        padding:0px 0px 0px 40px;
+        padding:0px 0px 0px 30px;
         margin-top:-200px;
     }
     .hero-text{
@@ -301,10 +301,26 @@
         object-fit: contain;
         width:90%;
         height:100%;
-        margin-left:-5px;
+        margin-left:-1px;
       }
 }
 @media only screen and (max-width: 400px){
+    .home-part{
+        height:75vh;
+    }
+    .home-image{
+        padding: 50px 0px;
+    }
+    .home-text{
+        height: 70vh;
+    }
+    .hero-text{
+        padding:0px 50px 0px 0px;
+        margin-top: -50px;
+    }
+    .download-btn{
+        margin-top:0px;
+    }
     .home-text2 img{
         width:300px;
         height:390px;
