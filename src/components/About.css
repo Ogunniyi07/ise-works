@@ -118,15 +118,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding:100px 80px 60px 80px;
+    padding:100px 80px 100px 80px;
     /* background-color: blue; */
 }
 .about-goal .goal{
     width:40%;
     height: max-content;
+    margin-left: 80px;
 }
 .about-goal .goal p{
-    text-align: center;
+    text-align: Left;
     font-size: 26px;
 }
 .about-goal .card{
@@ -134,6 +135,7 @@
     height: max-content;  
     animation: slide-up 2s;
     animation-delay:2s;
+    line-height: 40px;
 }
 @keyframes slide-up{
     from {
@@ -142,7 +144,7 @@
     }
     to{
         opacity:1;
-        line-height: 25px;
+        line-height: 40px;
     }
 }
 .about-goal .card p{
@@ -341,10 +343,10 @@
         letter-spacing: 1px;
         padding-top:10px;
         color:#000;
-        margin-left: -50px;
+        margin-left: -100px;
     }
     .about-text .abouthero-text .text2 h2{
-        margin-left: -50px;
+        margin-left: -100px;
         font-size: 30px;
         color:#000;
     }
@@ -437,17 +439,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:50px 20px 10px 20px;
+        padding:50px 40px 10px 50px;
+    }
+    .about-goal .goal{
+        width:100%;
+        height: max-content;
+        margin-left: 0px;
+    }
+    .about-goal .goal p{
+        text-align: left;
     }
     .about-goal p{
         margin-left:0px;
     }
     .about-goal .card{
         height: max-content;
-        padding:20px;
+        padding:20px 20px 20px 0px;
     }
     .about-goal .card p{
         font-size: 20px;
+        line-height: 40px;
     }
     .about-blur{
         width:350px;
@@ -478,16 +489,15 @@
     }
 }
     @media only screen and (max-width: 400px){
+        .about-text .abouthero-text .text1 h2,
+        .about-text .abouthero-text .text2 h2{
+            margin-left: -50px;
+        }
     .about-mobile img{
         width:200px;
         height:400px;
     }
-    .about-mobiletext{
-        padding:0px 20px;
-    }
-    .about-mobiletext h2{
-       font-size: 22px;
-    }
+   
     .sponsor-card-row .sponsor-card{
         width:100%;
     }

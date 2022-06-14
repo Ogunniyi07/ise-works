@@ -60,10 +60,11 @@
     animation: text 3s 1;
 }
 .service-text .servicehero-text .text2 h2{
-    font-size: 30px;
+    font-size: 35px;
     color: #000;
     /* background-color: red; */
     padding-left:100px;
+    margin-top: -5px;
 }
 @keyframes text {
     0%{
@@ -129,7 +130,8 @@
     width:30%;
     height:max-content;
     margin-right: 20px;
-    padding:40px 0px 40px 90px;
+    margin-top: -80px;
+    padding:0px 0px 40px 90px;
     text-align: left;
     animation: slide-up 2s;
     animation-delay:2s;
@@ -232,8 +234,14 @@
         width:100%;
         height:max-content;
         margin-right: 0px;
-        padding:30px 0px;
-        text-align: center;
+        padding:30px 50px;
+        text-align: left;
+    }
+    .service-section .service-enterprise1 .enter{
+        margin-right: 20px;
+    }
+    .service-section .service-enterprise h2{
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 650px) {
@@ -242,13 +250,22 @@
         font-weight: 700;
         line-height: 45px;
     }
+    .service-text .servicehero-text .text1 h2,
+    .service-text .servicehero-text .text2 h2{
+        padding-left:40px;
+    }
     .service-section .service-enterprise h2{
         font-size: 25px;
         padding-bottom: 15px;
     }
+    .service-section .service-enterprise,
+    .service-section .service-enterprise1{
+        padding:30px 50px;
+    }
     .service-section .service-enterprise p,
     .service-section .service-enterprise1 p{
         font-size: 18px;
+        line-height: 30px;
     }
     .service-blur1{
         position: absolute  ;
@@ -270,7 +287,7 @@
         }
         .service-text .servicehero-text .text1 h2,
         .service-text .servicehero-text .text2 h2{
-            padding-left:50px;
+            padding-left:30px;
         }
 }
 

@@ -45,7 +45,7 @@
     font-size: 55px;
     font-weight: 700;
     line-height: 60px;
-    color: #198cd6;
+    color: #000;
 }
 .home-text .hero-text p{
     padding-top: 10px;
@@ -143,21 +143,40 @@
 }
 @media only screen and (max-width: 900px) {
     .home-hero{
-        flex-direction: column;
+        flex-direction: column-reverse;
     } 
     .home-part{
         width:100%;
         height:100vh;
     }
+    .home-circle{
+        width:200px;
+        height:200px;
+        background-color: #198cd6;
+        margin-left: 700px;
+        margin-top: 0px;
+        border:2px solid;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(150px);
+    }
     .home-circle2{
-        display: none;
+        position: absolute;
+        width:200px;
+        height:200px;
+        background-color: #198cd6;
+        left: -500px;
+        top: -100px;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(150px);
     }
     .home-text{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 160px 0px 0px 0px;
+        padding:0px;
     }
     .home-image{
         width:100%;
@@ -165,6 +184,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top:200px;
     }
     .home-text2{
         display: flex;
@@ -200,13 +220,13 @@
 }
 @media only screen and (max-width: 650px) {
     .home-text{
-        padding: 0px 0px 0px 0px;
+        padding:0px;
+        margin-top:200px;
     }
     .hero-text{
         width:100%;
         height: 40vh;
         padding:0px 30px 0px 30px;
-        /* background-color: red; */
     }
     .home-text .hero-text h2{
         font-size: 45px;
@@ -217,70 +237,76 @@
     .home-image{
         width:100%;
         height:80vh;
-        padding-bottom: 90px;
+        padding: 250px 0px 50px 0px;
     }
-    /* .home-circle2{
-        width:400px;
-        height:400px;
-        background-color: #198cd6;
-        margin-left: 500px;
-        margin-top: -50px;
-        border-radius: 50%; 
-        opacity: 5;
-        filter: blur(150px);
-    } */
     .scroll-btn{
         margin-top:1080px;
         margin-left:290px;
     }
 }
 @media only screen and (max-width: 470px){
-    .home-text2 img{
-        width:420px;
-        height:470px;
-    }
-}
-    @media only screen and (max-width: 400px){
-    .hero-text{
+    .home-image{
         width:100%;
-        height: max-content;
-        padding:0px 30px 10px 30px;
+        height:80vh;
+        padding: 200px 0px 50px 0px;
+    }
+    .home-text{
+        padding:0px 0px 0px 40px;
+        margin-top:-200px;
+    }
+    .hero-text{
+        padding:0px 50px 0px 0px;
+    }
+    .home-circle{
+        width:200px;
+        height:200px;
+        background-color: #198cd6;
+        left: 550px;
+        top: 850px;
+        border:2px solid;
+        border-radius: 50%; 
+        opacity: 5;
+        filter: blur(150px);
+    }
+    .home-text2 img{
+        width:370px;
+        height:400px;
     }
     .home-text .hero-text h2{
         font-size: 35px;
-        line-height: 50px;
+        line-height: 48px;
+        text-align: left;
     }
     .home-text .hero-text p{
         font-size: 18px;
-        line-height: 30px;
+        text-align: left;
     }
-    .home-btn{
-        margin-top: -30px;
+    .home-text .download-btn{
+        align-items: start;
     }
-    .home-signup{
-        height: 55px;
-        width:180px;
-    }
+
     .download-btn{
-        height: 100px;
-        width:300px;
+        height: 150px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        margin-top:30px;
+    }
+    .download-btn .apple{
+        margin-bottom: 20px;
     }
     .download-btn img{
-        width:95%;
-        height:95%;
-    }
-    .home-image{
-        width:100%;
-        height:40vh;
-        padding-bottom: 150px;
-    }
+        object-fit: contain;
+        width:90%;
+        height:100%;
+        margin-left:-5px;
+      }
+}
+@media only screen and (max-width: 400px){
     .home-text2 img{
-        width:350px;
-        height:300px;
-    }
-    .scroll-btn{
-        margin-top:830px;
-        margin-left:150px;
+        width:300px;
+        height:390px;
     }
 }
-

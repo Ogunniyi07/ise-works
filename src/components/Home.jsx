@@ -10,7 +10,7 @@ const Home = () => {
           <div className="home-text">
             <div className="hero-text">
             <h2>Too tired to do certain chores?</h2>
-            <p>With Ise you get to hire extra help to do those things you dont have the strength for.</p>
+            <p>With Ise you get to hire extra help <br/>to do those things you dont have <br/>the strength for.</p>
             </div>
             {/* <div className="home-btn">
               <a href="#"><button className="home-signup">Register Now</button></a>
