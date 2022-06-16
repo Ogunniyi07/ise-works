@@ -17,6 +17,7 @@
     height:max-content;
     display: flex;
     flex-direction: column;
+    /* background-color: red; */
 }
 .home-circle{
     width:400px;
@@ -31,8 +32,8 @@
 }
 .home-text{
     width:100%;
-    height:100vh;
-    padding: 230px 0px 0px 80px;
+    height:max-content;
+    padding: 210px 0px 0px 100px;
     /* background-color: blue; */
 }
 .hero-text{
@@ -98,10 +99,9 @@
     /* background-color: blue; */
 }
 .home-text2 img{
-    width:650px;
-    height:480px;
+    width:90%;
+    height:70%;
     object-fit: contain;
-    /* background-color: red;   */
 } 
 .home-circle2{
     width:400px;
@@ -133,10 +133,11 @@
     .home-text{
         padding: 190px 0px 0px 50px;
     }
-    .scroll-btn{
-        margin-top:580px;
-        margin-left:600px;
-    }
+    .home-text2 img{
+        width:650px;
+        height:480px;
+        object-fit: contain;
+    } 
 }
 @media only screen and (max-width: 975px) {
 
@@ -147,7 +148,8 @@
     } 
     .home-part{
         width:100%;
-        height:100vh;
+        height:max-content;
+        padding-bottom: 100px;
     }
     .home-circle{
         width:200px;
@@ -174,8 +176,8 @@
     .home-text{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        margin-top:-100px ;
         padding:0px;
     }
     .home-image{
@@ -184,7 +186,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top:200px;
+        padding-top:150px;
     }
     .home-text2{
         display: flex;
@@ -202,30 +204,22 @@
         padding:0px 30px;
         text-align: center;
     }
-    .home-btn{
-        height: 90px;
-        width:400px;
-        padding:15px 0px;
-        display: flex;
-        justify-content: center;
-    }
     .download-btn img{
         margin-right:20px;
         margin-left:10px;
       }
-    .scroll-btn{
-        margin-top:1080px;
-        margin-left:410px;
-    }
 }
 @media only screen and (max-width: 650px) {
+    .home-part{
+        padding-bottom: 0px;
+    }
     .home-text{
-        padding:0px;
-        margin-top:200px;
+        padding-bottom:80px;
+        margin-top: -200px;
     }
     .hero-text{
         width:100%;
-        height: 40vh;
+        height: max-content;
         padding:0px 30px 0px 30px;
     }
     .home-text .hero-text h2{
@@ -236,26 +230,26 @@
     }
     .home-image{
         width:100%;
-        height:80vh;
-        padding: 250px 0px 50px 0px;
+        height:max-content;
+        padding: 110px 0px 50px 0px;
     }
-    .scroll-btn{
-        margin-top:1080px;
-        margin-left:290px;
-    }
+    .home-text2 img{
+        width:500px;
+        height:400px;
+        object-fit: contain;
+    } 
 }
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 480px){
     .home-image{
         width:100%;
-        height:80vh;
-        padding: 200px 0px 50px 0px;
+        height:max-content;
+        padding: 80px 0px 40px 0px;
     }
     .home-text{
-        padding:0px 0px 0px 30px;
-        margin-top:-200px;
+        padding:0px 0px 50px 30px;
     }
     .hero-text{
-        padding:0px 50px 0px 0px;
+        padding:0px 50px 20px 0px;
     }
     .home-circle{
         width:200px;
@@ -269,8 +263,8 @@
         filter: blur(150px);
     }
     .home-text2 img{
-        width:370px;
-        height:400px;
+        width:320px;
+        height:370px;
     }
     .home-text .hero-text h2{
         font-size: 35px;
@@ -292,7 +286,6 @@
         flex-direction: column;
         align-items: left;
         justify-content: left;
-        margin-top:30px;
     }
     .download-btn .apple{
         margin-bottom: 20px;
@@ -304,25 +297,27 @@
         margin-left:-1px;
       }
 }
-@media only screen and (max-width: 400px){
-    .home-part{
-        height:75vh;
-    }
-    .home-image{
-        padding: 50px 0px;
-    }
-    .home-text{
-        height: 70vh;
+@media only screen and (max-width: 326px){
+    .home-text2 img{
+        width:250px;
+        height:300px;
     }
     .hero-text{
-        padding:0px 50px 0px 0px;
-        margin-top: -50px;
+        padding:0px 10px 20px 0px;
     }
-    .download-btn{
-        margin-top:0px;
+    .home-text .hero-text h2{
+        font-size: 24px;
+        line-height: 35px;
     }
-    .home-text2 img{
-        width:300px;
-        height:390px;
+    .home-text .hero-text p{
+        font-size: 15px;
+        line-height: 28px;
     }
+    .download-btn .apple{
+        margin-bottom: 0px;
+    }
+    .download-btn img{
+        width:90%;
+        height:70%;
+      }
 }

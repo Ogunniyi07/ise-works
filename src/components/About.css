@@ -150,55 +150,6 @@
 .about-goal .card p{
     font-size: 22px;
 }
-/* .about-section{ 
-    width:100%;
-    height:max-content;
-    display: flex;
-    flex-direction: row;
-     background-color: red;
-}
-.about-mobile{
-    width:40%;
-    height:max-content;
-    display: flex;
-    justify-content: center;
-    padding:40px 0px;
-    background-color: blue;
-}
- .about-mobile img{
-    width:315px;
-    height:625px;
-}
-.about-mobiletext{
-    width:60%;
-    height:113vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:0px 40px;
-}
-.about-mobiletext h2{
-    text-align: center;
-}
-.about-numbers{
-    width:100%;
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding:30px 0px;
-    background-color: blue;
-}
-.about-numbers .about-customers{
-    width:25%;
-    height: 30vh;
-    text-align: center;
-    padding:40px 0px;
-    background-color: red; 
-}
-.about-numbers .about-customers h2{
-    font-size: 40px;
-} */
 .about-sec1{
     width:100%;
     height:max-content;
@@ -263,6 +214,68 @@
     font-size: 35px;
     margin-left:120px;
 }
+#maindiv{
+    border: 2px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  #div1 {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
+  #div2 {
+    display: inline-block;
+    animation: marquee2 10s linear infinite;
+    animation-delay: 5s;
+  }
+.marquee{
+    border: 2px solid black;
+    overflow: hidden;
+    /* white-space: nowrap; */
+}
+.slide1{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding:0px 30px;
+    /* display: inline-block; */
+    /* animation: marquee 10s linear infinite; */
+}
+.slide2{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px;
+    /* display: inline-block; */
+    /* animation: marquee2 10s linear infinite;
+    animation-delay: 5s; */
+}
+@keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
 .sponsor-card-row{
     width:100%;
     height: max-content;
@@ -383,6 +396,7 @@
     }
     .about-rect .about-card1{
         width: 100%;
+        padding-top:40px;
     }
     .about-rect .about-card img,
     .about-rect .about-card1 img{
@@ -390,23 +404,6 @@
         height:50%;
         object-fit: contain;
     }
-    /* .about-mobile{
-        width:100%;
-        height:max-content;
-        display: flex;
-        justify-content: center;
-        padding:90px 0px;
-    }
-    .about-mobile img{
-        width:300px;
-        height:595px;
-    }
-    .about-mobiletext{
-        width:100%;
-        height:30vh;
-        display: block;
-        padding:20px 40px;
-    } */
     .about-btn button{
         width:50%;
         height:8vh;

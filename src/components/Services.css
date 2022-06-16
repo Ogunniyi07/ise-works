@@ -130,13 +130,12 @@
     width:30%;
     height:max-content;
     margin-right: 20px;
-    margin-top: -80px;
-    padding:0px 0px 40px 90px;
+    margin-top: -115px;
+    padding:0px 50px 40px 90px;
     text-align: left;
     animation: slide-up 2s;
     animation-delay:2s;
     /* background-color: blue; */
-   
 }
 .service-section .service-enterprise p{
     line-height: 10px;
@@ -166,7 +165,7 @@
     flex-direction: row;
     justify-content: center;
     margin-right: 20px;
-    padding:40px 50px;
+    padding:50px 50px;
     text-align: center;
     /* background-color: blue; */
 }
@@ -191,10 +190,14 @@
 
 /* Responsiveness of the Site */
 @media only screen and (max-width: 1115px) {
-    
+    .service-section .service-enterprise{
+        margin-top: -90px;
+    }
 }
 @media only screen and (max-width: 975px) {
-   
+    .service-section .service-enterprise{
+        margin-top: -60px;
+    }
 }
 @media only screen and (max-width: 900px) {
     .servicehero-text{
@@ -234,7 +237,7 @@
         width:100%;
         height:max-content;
         margin-right: 0px;
-        padding:30px 50px;
+        padding:50px 50px;
         text-align: left;
     }
     .service-section .service-enterprise1 .enter{
@@ -257,10 +260,6 @@
     .service-section .service-enterprise h2{
         font-size: 25px;
         padding-bottom: 15px;
-    }
-    .service-section .service-enterprise,
-    .service-section .service-enterprise1{
-        padding:30px 50px;
     }
     .service-section .service-enterprise p,
     .service-section .service-enterprise1 p{
