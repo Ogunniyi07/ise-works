@@ -47,87 +47,26 @@ const About = () => {
       </div>
       <div className="about-sponsor">
         <h2>Our Sponsors</h2>
-        <div id="maindiv">
-  <div id="div1">
-    &nbsp;Test-1 Test-2 Test-3 Test-4 Test-5 Test-6 Test-7 Test-8 Test-9 Test-10 Test-11
+        <div className="marquee">
+  <div className="slide1">
+    &nbsp;<img src="\images\sponsor4.png" alt="" />
+    &nbsp;<img src="\images\sponsor2.png" alt="" />
+    &nbsp;<img src="\images\sponsor1.png" alt="" />
+    &nbsp;<img src="\images\sponsor3.png" alt="" />
+    &nbsp;<img src="\images\sponsor5.png" alt="" />
+    &nbsp;<img src="\images\sponsor6.png" alt="" />
+    &nbsp;<img src="\images\sponsor7.png" alt="" />
   </div>
-  <div id="div2">
-    &nbsp;Test-1 Test-2 Test-3 Test-4 Test-5 Test-6 Test-7 Test-8 Test-9 Test-10 Test-11
+  <div className="slide2">
+    &nbsp;<img src="\images\sponsor4.png" alt="" />
+    &nbsp;<img src="\images\sponsor2.png" alt="" />
+    &nbsp;<img src="\images\sponsor1.png" alt="" />
+    &nbsp;<img src="\images\sponsor3.png" alt="" />
+    &nbsp;<img src="\images\sponsor5.png" alt="" />
+    &nbsp;<img src="\images\sponsor6.png" alt="" />
+    &nbsp;<img src="\images\sponsor7.png" alt="" />
   </div>
 </div>
-        {/* <div className="marquee">
-          <div className="slide1">
-          <div className="sponsor-card">
-          <img src="\images\sponsor4.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor2.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor1.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor3.png" alt="" />
-          </div>  
-          <div className="sponsor-card">
-            <img src="\images\sponsor5.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor6.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor7.png" alt="" />
-          </div>        
-          </div>
-          <div className="slide2">
-          <div className="sponsor-card">
-          <img src="\images\sponsor4.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor2.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor1.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor3.png" alt="" />
-          </div>  
-          <div className="sponsor-card">
-            <img src="\images\sponsor5.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor6.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor7.png" alt="" />
-          </div>        
-          </div>
-        </div> */}
-        {/* <marquee behavior="scroll" direction="left" scrollamount="5">
-        <div className="sponsor-card-row">
-          <div className="sponsor-card">
-          <img src="\images\sponsor4.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor2.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor1.png" alt="" />
-          </div>
-          <div className="sponsor-card">
-            <img src="\images\sponsor3.png" alt="" />
-          </div>  
-          <div className="sponsor-card">
-            <img src="\images\sponsor5.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor6.png" alt="" />
-          </div> 
-          <div className="sponsor-card">
-            <img src="\images\sponsor7.png" alt="" />
-          </div>        
-        </div>
-        </marquee> */}
       </div>
       <div className="about-btn">
         <button type="button">Become a Partner</button>

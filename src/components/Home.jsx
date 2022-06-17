@@ -12,9 +12,6 @@ const Home = () => {
             <h2>Too tired to do certain chores?</h2>
             <p>With Ise you get to hire extra help <br/>to do those things you dont have <br/>the strength for.</p>
             </div>
-            {/* <div className="home-btn">
-              <a href="#"><button className="home-signup">Register Now</button></a>
-            </div> */}
             <div className="download-btn">
               <div className="apple">
                 <a href="#"><img src="images/download-apple.svg" alt=""/></a>

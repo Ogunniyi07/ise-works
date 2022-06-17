@@ -6,7 +6,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navigation = () => {
   window.addEventListener("scroll", function () {
-    const navigation = document.querySelector(".navigation")
+    // const navigation = document.querySelector(".navigation")
     // navigation.classList.toggle("active",window.scrollY > 100)
   })
 
@@ -28,12 +28,12 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink className="nav-link" to="/about">
-              About
+              About us
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-link" to="/services">
-              Services 
+              Our services 
             </NavLink>
           </li>
           <li>

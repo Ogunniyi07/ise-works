@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="attachment">
           <label htmlFor="file-input">
             <img src="\images\attachment.png" alt="" onClick={handleClick}/>
-            <p onClick={handleClick}>Add Attachment</p> 
+            <p onClick={handleClick}>Add attachment</p> 
           </label>
             <input
               style={{display: 'none'}}

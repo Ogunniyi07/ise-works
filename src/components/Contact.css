@@ -3,19 +3,17 @@
     width:100%;
     height:max-content;
     padding: 60px 80px;
-    /* background-color: red; */
 }
 .contact-title{
     width:100%;
     height:max-content;
     padding:20px;
-    /* background-color: green; */
 }
 .contact-title h2{
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
-    color: #198cd6;
+    color: #000;
 }
 .contact-form{
     width:100%;
@@ -23,7 +21,6 @@
     display: flex;
     flex-direction: column;
     padding:20px;
-    /* background-color: blue; */
 }
 input[type=text],
 input[type=email]{
@@ -58,7 +55,6 @@ input[type=email]{
   .contact-btn{
       width:100%;
       height: max-content;
-      /* background-color: red; */
   }
   .contact-btn button{
         width:15%;
@@ -78,22 +74,6 @@ input[type=email]{
     .contact-btn button:hover{
         background-color:#022a42;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsiveness of the Site */
 @media only screen and (max-width: 1115px) {
