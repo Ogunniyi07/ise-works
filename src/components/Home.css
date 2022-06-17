@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .download-btn img{
     object-fit: contain;
@@ -86,21 +87,6 @@
     border-radius: 50%; 
     opacity: 5;
     filter: blur(150px);
-}
-.scroll-btn{
-    position:absolute;
-    width:45px;
-    height:45px;
-    border-radius: 50%;
-    margin-top:580px;
-    margin-left:650px;
-    padding:8px;
-    border:2px solid #198cd6;
-    transition: all 0.5s ease;
-}
-.scroll-btn a{
-    font-size: 24px;
-    color:#198cd6;
 }
 /* Responsiveness of the Site */
 @media only screen and (max-width: 1115px) {
