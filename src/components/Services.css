@@ -257,13 +257,17 @@
         font-size: 18px;
         line-height: 30px;
     }
+    /* .service-section{
+        height: max-content;
+        background-color: red;
+    } */
     .service-blur1{
         position: absolute ;
         width:150px;
         height:150px;
         background-color: #198cd6;
         margin-left: -300px;
-        margin-top: 400px;
+        margin-top: 0px;
         border:2px solid;
         border-radius: 50%; 
         opacity: 5;
