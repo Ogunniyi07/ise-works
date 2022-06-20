@@ -222,11 +222,14 @@
         width:100%;
         height:max-content;
         margin-right: 0px;
-        padding:50px 50px;
+        padding:50px 20px;
         text-align: left;
     }
     .service-section .service-enterprise1 .enter{
-        margin-right: 20px;
+        margin-right: 100px;
+    }
+    .service-section .service-enterprise1 .enter1{
+        text-align: center;
     }
     .service-section .service-enterprise h2{
         margin-top: 50px;
@@ -255,12 +258,12 @@
         line-height: 30px;
     }
     .service-blur1{
-        position: absolute  ;
+        position: absolute ;
         width:150px;
         height:150px;
         background-color: #198cd6;
         margin-left: -300px;
-        margin-top: 250px;
+        margin-top: 400px;
         border:2px solid;
         border-radius: 50%; 
         opacity: 5;

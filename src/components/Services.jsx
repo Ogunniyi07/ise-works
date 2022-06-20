@@ -39,7 +39,7 @@ const Services = () => {
                     <p>Financial Services</p>
                   </div>
                 </div>
-                <div className="enter">
+                <div className="enter1">
                   <div className="service-enterprise-img">
                     <img src="\images\Vector1.png" alt="" />
                     <p>24/7 Customer Service Support</p>
